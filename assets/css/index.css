@@ -26,6 +26,10 @@ p {
   width: 90vw;
 }
 
+#hero #img-desktop {
+  display: none;
+}
+
 #content {
   padding: 25px;
 }
@@ -74,9 +78,48 @@ p {
   color: white;
   font-weight: 600;
   font-size: 18px;
+  transition: all 0.4s;
 }
 
 #content form .button:hover {
   background-color: #FA6257;
   box-shadow: 5px 5px 10px 2px #fa62577e;
+}
+
+@media only screen and (min-width: 996px) {
+  body {
+    background-color: #393E65;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #hero #img-desktop {
+    display: block;
+    width: 400px;
+  }
+
+  #hero #img-mobile {
+    display: none;
+  }
+
+  #content {
+    width: 400px;
+  }
+
+  #content h1 {
+    font-size: 50px;
+  }
 }
