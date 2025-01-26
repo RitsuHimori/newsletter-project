@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  color: #393E65;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+}
+
+#hero img {
+  width: 90vw;
+}
+
+#content {
+  padding: 25px;
+}
+
+#content h1 {
+  font-size: 30px;
+  margin-bottom: 20px 0;
+}
+
+#content ul {
+  margin: 20px 0;
+}
+
+#content ul li {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+#content form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+#content form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#content form .input-email {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+#content form .button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #393E65;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#content form .button:hover {
+  background-color: #FA6257;
+  box-shadow: 5px 5px 10px 2px #fa62577e;
+}
